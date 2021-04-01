@@ -93,6 +93,28 @@ margin-right: 0;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.letter::before {
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  content: "";
+  background-image: url(../images/icon_letter.svg);
+  background-size: contain;
+  background-position: center;
+}
+
+.phone::before{
+  display: inline-block;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  content: "";
+  background-image: url(../images/icon_mobile.svg);
+  background-size: contain;
+
+}
+
 .communication-first:hover,
 .communication-first:focus {
   color:var(--accent-color);
@@ -199,6 +221,39 @@ margin-right: 0;
   margin-right: 0;
 }
 
+
+.list-advantage{
+  margin-right: 30px;
+}
+.list-advantage:last-child{
+  margin-right: 0;
+}
+
+.list-advantage::before{
+  display:block;
+  height: 120px;
+  margin-bottom: 30px;
+  content: "";
+  background-color:var(--button-background);
+  border-radius: 4px;
+  background-position:center;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+}
+.icon-group::before{
+  background-image: url(../images/icon_group.svg);
+
+
+}
+.icon-clock::before{
+  background-image: url(../images/icon_clock.svg);
+}
+.icon-diagram::before{
+  background-image: url(../images/icon_diagram.svg);
+}
+.icon-astronaut::before{
+  background-image: url(../images/icon-astronaut.svg);
+}
  /* Сотрудники */
 .team-member {
   font-weight: 500;

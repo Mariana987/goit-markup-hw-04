@@ -209,7 +209,11 @@ margin-right: 0;
   margin-right: 0;
 }
 
-
+.list-advantage::before{
+  background-size: contain;
+  background-position: center;
+  background-color: var(--button-background);
+}
 
  /* Сотрудники */
 .team-member {

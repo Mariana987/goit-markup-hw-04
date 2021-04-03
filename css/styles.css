@@ -92,6 +92,7 @@ margin-right: 0;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  align-items: center;
 }
 
 .letter-icon{
@@ -263,9 +264,6 @@ margin-right: 0;
   border-radius: 50%;
   align-items: center;
 }
-.social-link{
-  padding: 12px;
-}
 .social-item:last-child{
   margin-right: 0;
 }
@@ -274,7 +272,17 @@ margin-right: 0;
   margin-left: 32px;
 }
 
-.social-item:hover .icon,
+
+.social-item:hover,
+.social-item:focus  {
+  fill: #ffffff;
+}
+
+.social-item:hover ,
+.social-item:focus  {
+  background-color: var(--accent-color)
+}
+/* .social-item:hover .icon,
 .social-item:focus .icon {
   fill: #ffffff;
 }
@@ -282,7 +290,7 @@ margin-right: 0;
 .social-item:hover .icon,
 .social-item:focus .icon {
   background-color: var(--accent-color)
-}
+} */
 /* Футер */
 
 .footer {

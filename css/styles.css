@@ -94,11 +94,7 @@ margin-right: 0;
   letter-spacing: 0.02em;
 }
 
-.letter{
-  background-position: center;
-  background-size: contain;
-  fill:violet
-}
+
 
 .communication-first:hover,
 .communication-first:focus {

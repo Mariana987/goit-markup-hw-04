@@ -101,10 +101,10 @@ margin-right: 0;
   margin-right: 10px;
 }
 
-.letter:hover{
+.letter-icon:hover{
   fill: var(--accent-color);
 }
-.phone:hover{
+.phone-icon:hover{
   fill: var(--accent-color);
 }
 
@@ -309,6 +309,12 @@ margin-right: 0;
   line-height: 1.7;
   letter-spacing: 0.02em;
 }
+
+.footer-div{
+  display: flex;
+}
+
+
 .footer-title{
 font-weight: bold;
 font-size: 14px;
@@ -332,6 +338,7 @@ margin-bottom: 20px;
   justify-content: center;
   border-radius: 50%;
   align-items: center;
+  background-color: : rgba(255, 255, 255, 0.1);
 }
 .social-footer-item:last-child{
   margin-right: 0;

@@ -253,6 +253,7 @@ margin-right: 0;
   border: 1px solid #EEEEEE;
   padding-top: 30px;
   padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .social-item{
   display: flex;
@@ -308,8 +309,42 @@ margin-right: 0;
   line-height: 1.7;
   letter-spacing: 0.02em;
 }
+.footer-title{
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
 
+.social-footer-icons{
+  width: 206px;
+  height: 44px;
+}
 
+.social-footer-item{
+  display: flex;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+}
+.social-footer-item:last-child{
+  margin-right: 0;
+}
+
+.footer-icon{
+  fill: #ffffff;
+}
+
+.social-footer-item:hover ,
+.social-footer-item:focus  {
+  background-color: var(--accent-color)
+}
 /* Портфолио */
 
 .portfolio-container {

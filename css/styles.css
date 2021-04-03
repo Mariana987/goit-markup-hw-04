@@ -213,6 +213,7 @@ margin-right: 0;
   background-size: contain;
   background-position: center;
   background-color: var(--button-background);
+  height: 120px;
 }
 
  /* Сотрудники */

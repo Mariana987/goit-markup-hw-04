@@ -94,7 +94,19 @@ margin-right: 0;
   letter-spacing: 0.02em;
 }
 
+.letter{
+  margin-right: 10px;
+}
+.phone{
+  margin-right: 10px;
+}
 
+.letter-icon:hover{
+  color: var(--accent-color);
+}
+.phone-icon:hover{
+  color: var(--accent-color);
+}
 
 .communication-first:hover,
 .communication-first:focus {
@@ -215,6 +227,7 @@ margin-right: 0;
   background-position: center;
   background-color: var(--button-background);
   height: 120px;
+  content: "";
 }
 
  /* Сотрудники */

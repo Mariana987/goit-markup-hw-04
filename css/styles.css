@@ -210,6 +210,7 @@ margin-right: 0;
 }
 
 .list-advantage::before{
+  display: inline-block;
   background-size: contain;
   background-position: center;
   background-color: var(--button-background);

@@ -286,15 +286,7 @@ margin-right: 0;
 .social-item:focus  {
   background-color: var(--accent-color)
 }
-/* .social-item:hover .icon,
-.social-item:focus .icon {
-  fill: #ffffff;
-}
 
-.social-item:hover .icon,
-.social-item:focus .icon {
-  background-color: var(--accent-color)
-} */
 /* Футер */
 
 .footer {

@@ -255,10 +255,15 @@ margin-right: 0;
   padding-bottom: 30px;
 }
 .social-item{
-  display: inline-block;
+  display: flex;
   width: 44px;
   height: 44px;
   margin-right: 10px;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+}
+.icon{
 }
 .social-item:last-child{
   margin-right: 0;

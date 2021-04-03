@@ -263,7 +263,9 @@ margin-right: 0;
   border-radius: 50%;
   align-items: center;
 }
-
+.social-link{
+  padding: 12px;
+}
 .social-item:last-child{
   margin-right: 0;
 }

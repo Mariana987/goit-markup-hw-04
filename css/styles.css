@@ -272,13 +272,13 @@ margin-right: 0;
   margin-left: 32px;
 }
 
-.social-link:hover .icon,
-.social-link:focus .icon {
+.social-item:hover .icon,
+.social-item:focus .icon {
   fill: #ffffff;
 }
 
-.social-link:hover .icon,
-.social-link:focus .icon {
+.social-item:hover .icon,
+.social-item:focus .icon {
   background-color: var(--accent-color)
 }
 /* Футер */

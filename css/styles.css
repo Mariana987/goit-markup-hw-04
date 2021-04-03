@@ -92,7 +92,6 @@ margin-right: 0;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  align-items: center;
 }
 
 .letter-icon{
@@ -109,10 +108,10 @@ margin-right: 0;
   fill: var(--accent-color);
 }
 
-.communication-first:hover,
+/* .communication-first:hover,
 .communication-first:focus {
   color:var(--accent-color);
-}
+} */
 .container {
   width: 1200px;
   margin-left: auto;
@@ -271,7 +270,9 @@ margin-right: 0;
   margin-right: 32px;
   margin-left: 32px;
 }
-
+.icon{
+  fill:#AFB1B8;
+}
 
 .icon:hover,
 .icon:focus  {

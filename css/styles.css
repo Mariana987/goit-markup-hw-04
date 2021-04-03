@@ -102,10 +102,10 @@ margin-right: 0;
   margin-right: 10px;
 }
 
-.letter-icon:hover{
+.letter:hover{
   fill: var(--accent-color);
 }
-.phone-icon:hover{
+.phone:hover{
   fill: var(--accent-color);
 }
 
@@ -273,8 +273,8 @@ margin-right: 0;
 }
 
 
-.social-item:hover,
-.social-item:focus  {
+.icon:hover,
+.icon:focus  {
   fill: #ffffff;
 }
 

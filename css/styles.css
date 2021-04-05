@@ -255,6 +255,8 @@ margin-right: 0;
   display: flex;
 }
 .list-item {
+  
+  background: #FFFFFF;
   margin-right: 30px;
 }
 .list-item:last-child {

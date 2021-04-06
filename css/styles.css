@@ -375,15 +375,17 @@ margin-right: 0;
 }
 
 /* Футер */
+.footer-bg{
+background-color:  #2F303A;
+}
 .footer{
   max-width: 1600px;
-  background-color:  #2F303A;
-  margin-left: auto;
-  margin-right: auto;
-}
-.footer-div {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+}
+.footer-div {
+  margin-right: 70px;
 }
 
 .address {
@@ -396,6 +398,7 @@ letter-spacing: 0.03em;
 margin-top: 20px;
 }
 .communication-second {
+  display: block;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-size: 14px;
